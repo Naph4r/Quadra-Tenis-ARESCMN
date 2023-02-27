@@ -1,0 +1,160 @@
+.page-header{
+    font-family: "Open Sans";
+    font-weight: 200 !important;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+    border-bottom:none !important;
+  }
+  p {
+  text-align: center;
+  }
+
+  .p_intro {
+  text-align: justify;    
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  }
+
+  .atividades{
+  font-size: medium;
+  }
+
+
+  /*//////////////////////////////////////////////////////---Imagens Slide */
+
+/*.container{          PARA Ñ TER CONFLITO COM DRUPAL, USEI ESTE STYLE DIRETO NA TAG HTML 
+  margin: 3rem 0 7rem 0;
+}*/ 
+
+#container-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+      }
+
+#icon-slide{
+width: 30px;
+height: 5px;
+}
+@media(max-width: 500px){
+
+#container-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 350px;
+      }
+
+.modal-img{
+width:250px;
+
+}
+
+}
+
+/*//////////////////////////////////////////////////////---Buttons */
+   
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-hover {
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+  
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 10px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+.btn-hover.color-9 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+  /*//////////////////////////////////////////////////////---TABELA*/
+
+  
+  .pre-tabela, .telefone, .table-titulo{
+          text-align: center;
+      }
+
+
+  #titulo-horarios{
+    font-weight: 600;
+
+  }
+
+
+      .table-active{
+          display: flex;
+          justify-content: center;
+    margin: 1rem;
+      }
+      .tabela{
+          font-family: Tahoma, Geneva, sans-serif;
+          font-weight: bold;
+          font: 20px;
+          text-align: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .tabela, .dia, .hora {
+          border: 1px solid #1C6EA4;
+          background-color: #fff;
+          width: 500px;
+          text-align: center;
+          border-collapse: collapse;
+      }
+      .dia{
+          
+         background-image: linear-gradient(to right, #1aa4d2, #4481eb, #4481eb, #1aa4d2);
+          box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+         
+          font-weight: bold;
+          color: #FFFFFF;
+          text-align: center;
+          border-left: 1.5px solid;
+      }
+      .hora1{
+          text-align: center;
+          background-color: #dfecf7;
+          border: 1px solid #1C6EA4 ;
+      }
+      .hora, .hora1{
+          
+          color: #2c2c2c;
+          box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+      }
